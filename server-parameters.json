@@ -2,5 +2,9 @@
   {
     "ParameterKey": "EnvironmentName",
     "ParameterValue": "Proj2WebApp"
-  }
+	},
+    {
+        "ParameterKey": "AMItoUse",
+        "ParameterValue": "ami-052efd3df9dad4825"
+      }
 ]

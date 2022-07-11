@@ -15,6 +15,16 @@ network.yaml Resource List:
 - PrivateRouteTable2, DefaultPrivateRoute2
 - PrivateSubnet2RouteTableAssociation
 
+server.yaml Resource List:
+- RoleForS3Access
+- LBSSecGroup
+- WebServerSecGroup
+- WebAppLaunchConfig
+- WebAppGroup
+- Listener
+- ALBListenerRule
+- WebAppTargetGroup
+
 Instructions
 - to create the network settings, type "create.sh webnetwork network.yaml network-parameters.json"
 - to create the server settings, type "create.sh webserver server.yaml server-parameters.json"
