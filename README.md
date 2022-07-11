@@ -30,7 +30,10 @@ server.yaml Resource List:
 Instructions
 - to create the network settings, type "create.sh webnetwork network.yaml network-parameters.json"
 - to create the server settings, type "create.sh webserver server.yaml server-parameters.json"
-
+- to update, use update.sh
+- to delete, use delete.sh
+- to describe, use describe.sh
+- 
 ##Technology Used
 yaml, json, shell
 
