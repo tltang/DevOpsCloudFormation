@@ -1,5 +1,7 @@
 ### Project Title - Deploy a high-availability web app using CloudFormation
 
+DevOps Diagram can be found in "Web App Diagram.pdf"
+
 network.yaml Resource List: 
 - VPC
 - InternetGateway
